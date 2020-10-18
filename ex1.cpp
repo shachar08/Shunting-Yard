@@ -100,6 +100,7 @@ double Div::calculate() {
     if(right->calculate() == 0) {
         throw "diving in zero";
     }
+    cout << "rr" << endl;
     return this->left->calculate() / this->right->calculate();
 }
 
